@@ -14,15 +14,22 @@ while option != 6:
 
     if option == 1:
         print(f"{num1} + {num2} = {num1 + num2}\n")
+        continue
 
     elif option == 2:
         print(f"{num1} - {num2} = {num1 - num2}\n")
+        continue
     
     elif option == 3:
         print(f"{num1} * {num2} = {num1 * num2}\n")
+        continue
     
     elif option == 4:
         print(f"{num1} / {num2} = {num1 / num2}\n")
+        continue
     
     elif option == 5:
         print(f"{num1} % {num2} = {num1 % num2}\n")
+        continue
+
+    print("Invalid operation")
